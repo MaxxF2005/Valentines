@@ -58,7 +58,7 @@
   </div>
   <div id="response" style="display: none;">
     <h2 id="response-message"></h2>
-    <img src="https://media1.tenor.com/m/fHbGEBHCaqwAAAAC/tbh-creature-autism-creature.gif" alt="Valentine's Day GIF" style="max-width: 100%;">
+    <img id="responseGif" src="https://media1.tenor.com/m/fHbGEBHCaqwAAAAC/tbh-creature-autism-creature.gif" alt="Valentine's Day GIF" style="max-width: 100%;">
   </div>
 </div>
 
@@ -70,7 +70,7 @@ function handleResponse(val) {
 
   if (val === 'yes') {
     responseMessage.textContent = "Hooray! Happy Valentine's Day Amanda!";
-    responseGif.src = "https://media.tenor.com/images/8e18ee426383f29970cf04e4963e507f/tenor.gif";
+    responseGif.src = "https://media1.tenor.com/m/fHbGEBHCaqwAAAAC/tbh-creature-autism-creature.gif";
   } else {
     responseMessage.textContent = "Sorry, this option is not available.";
     responseGif.style.display = "none";
